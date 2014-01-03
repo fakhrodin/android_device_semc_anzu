@@ -16,18 +16,15 @@
 $(call inherit-product, device/semc/anzu/full_anzu.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_mini_phone.mk)
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
-    Galaxy4 \
-    HoloSpiralWallpaper \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    NoiseField \
-    PhaseBeam \
-    VisualizationWallpapers \
+    LockClock \
+    BlueBalls \
+    PerformanceControl \
+    CMWallpapers \
+    PerformanceControl \
     PhotoTable
 
 # Set build fingerprint / ID / Product Name ect.
@@ -41,4 +38,4 @@ PRODUCT_NAME := cm_anzu
 PRODUCT_DEVICE := anzu
 
 # Custom tag for unofficial builds
-TARGET_UNOFFICIAL_BUILD_ID := LegacyXperia
+TARGET_UNOFFICIAL_BUILD_ID := Pakoore
