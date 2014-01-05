@@ -24,7 +24,6 @@ PRODUCT_PACKAGES += \
     BlueBalls \
     PerformanceControl \
     CMWallpapers \
-    PerformanceControl \
     PhotoTable
 
 # Set build fingerprint / ID / Product Name ect.
