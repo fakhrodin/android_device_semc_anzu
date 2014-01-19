@@ -22,8 +22,6 @@ $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 PRODUCT_PACKAGES += \
     LockClock \
     BlueBalls \
-    PerformanceControl \
-    CMWallpapers \
     PhotoTable
 
 # Set build fingerprint / ID / Product Name ect.
